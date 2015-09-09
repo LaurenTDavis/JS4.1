@@ -1,0 +1,19 @@
+.pink {
+	color: pink;
+}
+ h1 {
+ 	color: blue;
+ }
+
+ .giant {
+ 	height: 250px;
+ 	width: 500px;
+ 	font-size: 50px;
+
+ }
+
+ .design {
+ 	position: fixed;
+ 	top: 500px;
+ 	left: 500px;
+ }
