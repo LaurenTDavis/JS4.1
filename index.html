@@ -11,7 +11,7 @@
 	<div ng-controller="mainController">
 		<button ng-click="click()">Click</button>
 		<button ng-click="message()">Message</button>
-		<h1 ng-if="surprise"> Surprise!</h1>
+		<h1 ng-if="surprise"> Surprise{{punctuation}}</h1>
 		<button ng-click="list()">List</button>
 		<ul ng-if="items">
 			<li>Item 1</li>
@@ -19,7 +19,7 @@
 			<li>Item 3</li>
 		</ul>
 		
-		<h2 ng-if="punctuation">Hey Hey Hey.</h2>
+		<h2 ng-click="message()">Hey Hey Hey{{punctuation}}</h2>
 		<p ng-mouseover="mouseOver()" ng-mouseleave="mouseOff($event)" ng-class="{pink: hovering}">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum do</p>
 		<a ng-click="toUrl($event)" ng-if="toSite" href="http://www.google.com">Link</a>	<br>
 
